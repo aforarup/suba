@@ -1,0 +1,211 @@
+/* CSS Document */
+
+* { margin:0; padding:0; }
+
+BODY {
+	background-color: #fff;
+	background-image: url(bg_body.gif);
+	background-repeat: repeat-x;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:12px; 
+	color:#000000;
+}
+img { border:none;}
+a { outline:none;}
+.alignleft { float:left; }
+.alignright { float:right; }
+.clear { clear:both; }
+#MainBorder{width:964px; margin:0 auto; background:url(BackBord.gif) repeat-y center;}
+#wrapper { width:964px; margin:0 auto;}
+
+#header  {
+	width: 964px;
+}
+#header .logo {
+	padding-top: 15px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 0;
+	width: 240px;
+	float: left;
+}
+#header .social {
+	width:75px;
+	float:right;
+	padding-top: 15px;
+	padding-right: 35px;
+	padding-bottom: 0;
+	padding-left: 35px;
+	display:none;
+}
+#header .name {
+	float:left;
+	width:350px;
+	text-align:center;
+	margin-top: 12px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 15px;
+	padding-right: 30px;
+	padding-bottom: 0;
+	padding-left: 0;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 42px;
+	font-weight: bold;
+	color: #006600;
+}
+#header .nav {
+	float: right;
+	width: 713px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5;
+	padding-left: 0;
+	height: 50px;
+}
+
+
+#headerInner  {width:964px;height:58px;}
+#headerInner .logo { padding:32px 0 0 0px; float:left; width:328px; text-align:center; }
+#headerInner .nav { float:right; padding:27px 30px 0 0; margin:0px 0px; width:600px; background:#449284;  text-align:center;  }
+#headerInner .nav img { vertical-align:bottom; }
+#headerInner .nav a { color:#fff; text-decoration:none; display:inline-block; margin:8px 10px; vertical-align:middle; text-align:center; }
+#headerInner .nav a:hover { color:#fff200; }
+#headerInner .nav a.active { color:#fff200; }
+
+.content {padding:15px 90px 0 0px; height:348px; float:left; }
+.content .welcome_to { float:left; padding-right:0px; text-align:justify; }
+.content .welcome_to strong { width:348px; display:block;  background:#000000; padding:0px 30px; line-height:55px; font-size:16px; color:#FFF; font-family:"Myriad Pro"; font-weight:normal; }
+.content .welcome_to div { padding:10px 15px; border:solid 1px #ccc; line-height:22px; }
+
+.content .welcome_to p { text-align:right; }
+.content .brand_gyan { float:left; width:340px; }
+.content .brand_gyan strong { display:block; font-size:18px; }
+.content .brand_gyan .brand { margin:42px 0 0 0; }
+
+.MiddleOC {height:610px;background:url(http://www.zebraidealab.com/beta/img/ContentBgOurCompany.jpg) no-repeat;}
+.contentOC { padding:100px 0px 0px 80px;width:534px;float:left;}
+.ContentOCRight {padding:410px 0px 0px 50px;width:237px;float:left;}
+.contentOC p {text-align:justify;font-size:14px;padding:10px 0px;}
+
+.MiddleHWW {height:1110px;background:url(http://www.zebraidealab.com/beta/img/ContentBgHowWeWork.jpg) no-repeat;}
+.contentHWW { padding:150px 400px 0 70px;}
+.contentHWW p {text-align:justify;font-size:14px;padding:10px 0px;}
+
+.MiddleZS {height:610px;background:url(http://www.zebraidealab.com/beta/img/ServicesBG.jpg) no-repeat;}
+.contentZS { padding:95px 375px 0 59px;}
+.contentZS p {text-align:justify;font-size:14px;padding:10px 0px;}
+
+.MiddleOS {height:737px;background:url(http://www.zebraidealab.com/beta/img/OurSkillBG.jpg) no-repeat;}
+.contentOS { padding:95px 65px 0 59px;}
+.contentOS p {text-align:justify;font-size:14px;padding:10px 0px;}
+
+.MiddleCU {height:594px;background:url(http://www.zebraidealab.com/beta/img/ContactUsBG.jpg) no-repeat;}
+.contentCU { padding:45px 65px 0 59px;}
+.contentCU p {text-align:justify;font-size:14px;padding:10px 0px;}
+
+.MiddlePO {height:400px;background:url(http://www.zebraidealab.com/beta/img/ContentBgPortfolio.jpg) no-repeat;}
+.BottomPO{height:55px;background:url(http://www.zebraidealab.com/beta/img/ContentBottomBgPortfolio.jpg) no-repeat;}
+
+.footer {padding:20px 64px 0 68px; background:#e2e2e2; margin:15px 0; height:35px;}
+.footer span { float:left; display:inline-block; color:#030303; }
+.footer span a { color:#030303; text-decoration:none; }
+.footer span a:hover { color:#ffff00; }
+.footer p { float:right; color:#919191; }
+.footer p a { color:#030303; text-decoration:none; display:inline-block; margin:0 3px; }
+.footer p a:hover { color:#3a3a3a; }
+
+#slides {
+	width:964px;
+	position:relative;
+	height:275px;
+	z-index:+99;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+#slides .pagination { position:absolute; right:20px; bottom:10px; z-index:+9999; }
+#slides .pagination li { float:left; list-style:none;}
+#slides .pagination li a { display:inline-block; text-decoration:none; margin:0 3px; background:#ccc; width:12px; height:12px; border:solid 1px #999; font-size:1px; text-indent:-5000px; }
+#slides .pagination li.current a { background:#fff; }
+#slides .content { position:absolute; top:126px; left:512px; z-index:+999;background:none;}
+#slides .content div { padding:22px 0 0 0; line-height:19px; width:275px; }
+#slides .content p { padding:15px 0 0 0; }
+#slides .content p a { display:inline-block; margin-right:10px; }
+
+.TexboxStyle {border:2px solid #e1e1e1;padding:7px 5px;font-size:13px; width:195px;font-family:Arial, Helvetica, sans-serif;}
+
+.SuccessMessageText{background:url("http://www.zebraidealab.com/beta/images/success.jpg") no-repeat scroll 5px 5px #cce297;border:1px solid #b2dc4d;color:#40550d;text-decoration:none; text-align:left;display:block;}
+.ErrorMessageText{background:url("http://www.zebraidealab.com/beta/images/error.jpg") no-repeat scroll 5px 5px #e7928d;border:1px solid #c82820;color:#c82820;text-decoration:none; text-align:left;display:block;}
+.WarningMessageText{background:url("http://www.zebraidealab.com/beta/images/ico_error.jpg") no-repeat scroll 5px 5px #fffecc;border:1px solid #efdc90;color:#a9a014;text-decoration:none; text-align:left;display:block;}
+.ErrorMessageText, .SuccessMessageText, .WarningMessageText {
+	background-position: 10px center;
+	background-repeat: no-repeat;
+	font-family: "Arial", Arial, sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	padding: 5px 5px 5px 30px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	text-align: right;
+}
+
+.element	{ position:fixed; top:25%; left:0%;  }
+
+#homebanner {
+	margin: 0px;
+	padding: 0px;
+	width: 750px;
+	float: right;
+	position: relative;
+	text-align: right;
+}
+
+
+.wel-title{
+	padding: 0px 0px 0px 65px;
+	line-height: 55px;
+	font-size: 16px;
+	color: #01578f;
+	font-family: "Myriad Pro";
+	font-weight: normal;
+	background:url(icon.png) no-repeat 0px 3px;
+    background-color: #9dc31c;
+	
+	
+}
+
+.wel-b-b{padding:8px 10px; border:solid 1px #ccc; line-height:19px; }
+.w-315{ width:315px; height:140px; vertical-align:top;}
+.w-347{ width:347px; vertical-align:top;}
+.w-282{ width:282px; vertical-align:top;}
+.ttt11{color:#FF0000;text-decoration:none; float:right}
+.ttt11 A:HOVER{
+color:#333333}
+
+.inn-text{ line-height:20px; }
+.inn-text p { text-align:justify; }
+.inn-left-tit{font-size:14px; padding:5px 0; font-family:Arial, Helvetica, sans-serif; color:#449284; font-weight:bold; text-align:left; }
+.inn-left-tit div{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#3b3b3b; font-weight:normal; padding:5px 0; text-align:left; }
+.inn-bnr{
+	margin-top: 0px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+.inntitel{ color:#449284; font-size:30px; font-family:"Myriad Pro"; font-weight:bold; padding:20px 0 10px 0;} 
+.inntite2{ color:#449284; font-size:20px; font-family:"Myriad Pro"; font-weight:bold; padding:20px 0 10px 0; text-transform:uppercase;}  
+
+.input{ border:solid 1px #d9d9d9; height:33px; width:200px; padding:0 5px;} 
+.textarea{ border:solid 1px #d9d9d9; width:200px; padding:0 5px;}
+.text {display:inline-block; color:#3b3b3b; }
+.text a { color:#030303; text-decoration:none; }
+.text a:hover { color:#545455; text-decoration:underline; }
+.option 
+{
+	width:33%;
+}

@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#button {
+	padding: 1em 0 0 0;
+	margin-bottom: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bolder;
+	font-size:14px;
+	background-color: #f4f4ea;
+	color: #333;
+}
+
+#button ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+	
+#button li {
+	border-bottom: 1px solid #90bade;
+	margin: 0;
+	list-style: none;
+	list-style-image: none;
+}
+	
+#button li a {
+	display: block;
+	padding: 5px 5px 5px 0.5em;
+	border-left: 5px solid #f4f4ea;
+	border-right: 5px solid #f4f4ea;
+	background-color: #f4f4ea;
+	color: #06408a;
+	text-decoration: none;
+	width: 240;
+}
+
+html>body #button li a {
+	width: auto;
+}
+
+#button li a:hover {
+	border-left: 5px solid #1c64d1;
+	border-right: 5px solid #5ba3e0;
+	background-color: #5ba3e0;
+	color: #fff;
+}
+

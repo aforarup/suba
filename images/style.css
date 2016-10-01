@@ -1,0 +1,43 @@
+#navigation {
+	width: 713px;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	background-image: url(navigation-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	float: right;
+} 
+#navigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+} 
+#navigation ul li {
+	display: inline;
+	margin: 0px;
+} 
+#navigation ul li a {
+	height:33px;
+	display: block;
+	float: left;
+	padding: 17px 15px 0 15px;
+	font: bold 12px Arial;
+	color: #FFF;
+	text-decoration: none;
+	background-image: url(navigation-separator.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+} 
+
+#navigation ul li a:hover {
+	color:#3B3B3B;
+	background-image: url(navigation-hover.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+
+#navigation ul li#active a {
+	color:#3B3B3B;
+	background: url(navigation-hover.png) repeat-x left top;
+}
