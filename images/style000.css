@@ -156,6 +156,15 @@ a { outline:none;}
 
 .element	{ position:fixed; top:25%; left:0%;  }
 
+.certificate {
+    margin: 10px;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    bottom: 50px;
+    width: 200px;
+}
+
 #homebanner {
 	margin: 0px;
 	padding: 0px;
